@@ -8,4 +8,4 @@
 @[Redis->getBit($str_key, $i_position): int]({"stubs": ["getbit.php"], "command": "/project/target/spawn.sh getbit.php"})
 
 # Redis->scan()
-@["Redis->scan(&$it |, $str_pattern, $count): array]({"stubs": ["scan.php"], "command": "/project/target/spawn-scan.sh scan.php"})
+@[Redis->scan(&$it [, $str_pattern, $count]): array]({"stubs": ["scan.php"], "command": "/project/target/spawn-scan.sh scan.php"})
