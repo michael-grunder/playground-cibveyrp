@@ -6,3 +6,6 @@
 
 # Redis->getBit()
 @[Redis->getBit($str_key, $i_position): int]({"stubs": ["getbit.php"], "command": "/project/target/spawn.sh getbit.php"})
+
+# Redis->scan()
+@[Redis->scan(&$it, $str_patterh, ...)]({"stubs": ["getbit.php"], "command": "/project/target/spawn-scan.sh scan.php"})
