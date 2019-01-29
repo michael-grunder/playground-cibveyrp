@@ -1,0 +1,10 @@
+title: PHP Test
+plan:
+- title: PHP example
+  statement: markdowns/welcome.md
+projects:
+  php:
+    root: /php-project
+    runner:
+      name: mgrunder/alpine-php-redis
+      version: WE_HAVE_PHPREDIS_FFS
