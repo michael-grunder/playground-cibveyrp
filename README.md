@@ -1,1 +1,1 @@
-# Bump2
+# Proof of concept for PhpRedis documentation examples

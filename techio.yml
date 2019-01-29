@@ -7,4 +7,4 @@ projects:
     root: /php-project
     runner:
       name: mgrunder/alpine-php-redis
-      version: WE_HAVE_PHPREDIS_FFS
+      version: latest
